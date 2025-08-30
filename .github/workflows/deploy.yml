@@ -33,6 +33,11 @@ jobs:
       - name: Build site
         run: pnpm build
 
+      - name: Set deploy time
+        id: time
+        run: |
+          echo "now=$(date -u -d '+7 hours' '+%H:%M:%S %d/%m/%Y')" >> $GITHUB_OUTPUT
+
       - name: Deploy to GitHub Pages (external repo)
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -40,3 +45,4 @@ jobs:
           external_repository: dtdong08/dtdong08.github.io
           publish_branch: main
           publish_dir: ./dist
+          commit_message: ${{ steps.time.outputs.now }}
