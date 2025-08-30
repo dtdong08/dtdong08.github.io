@@ -7,10 +7,13 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
+import I18nKey from "./i18n/i18nKey.ts";
+import { siteLanguage, i18n } from "./i18n/translation.ts";
+
 export const siteConfig: SiteConfig = {
-	title: "Trong Dong",
+	title: i18n(I18nKey.home),
 	subtitle: "",
-	lang: "vi", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: siteLanguage,
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors

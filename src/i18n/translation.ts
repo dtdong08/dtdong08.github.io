@@ -1,4 +1,3 @@
-import { siteConfig } from "../config";
 import type I18nKey from "./i18nKey";
 import { en } from "./languages/en";
 import { es } from "./languages/es";
@@ -15,7 +14,7 @@ export type Translation = {
 	[K in I18nKey]: string;
 };
 
-const defaultTranslation = en;
+export const siteLanguage = "vi"; // Language code, e.g. 'en', 'zh_CN', 'vi', etc.
 
 const map: { [key: string]: Translation } = {
 	es: es,
@@ -38,11 +37,6 @@ const map: { [key: string]: Translation } = {
 	tr_tr: tr,
 };
 
-export function getTranslation(lang: string): Translation {
-	return map[lang.toLowerCase()] || defaultTranslation;
-}
-
 export function i18n(key: I18nKey): string {
-	const lang = siteConfig.lang || "en";
-	return getTranslation(lang)[key];
-}
+	return map[siteLanguage.toLowerCase()][key];
+};
