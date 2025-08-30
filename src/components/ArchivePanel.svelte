@@ -37,8 +37,8 @@ function formatDate(date: Date) {
 	return `${month}-${day}`;
 }
 
-function formatTag(tagList: string[]) {
-	return tagList.map((t) => `#${t}`).join(" ");
+function formatCategory(category?: string) {
+	return category || i18n(I18nKey.uncategorized);
 }
 
 onMount(async () => {
@@ -141,7 +141,7 @@ onMount(async () => {
                                 class="hidden md:block md:w-[15%] text-left text-sm transition
                      whitespace-nowrap overflow-ellipsis overflow-hidden text-30"
                         >
-                            {formatTag(post.data.tags)}
+                            {formatCategory(post.data.category)}
                         </div>
                     </div>
                 </a>
