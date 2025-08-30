@@ -37,4 +37,5 @@ export const vi: Translation = {
 	[Key.license]: "Giấy phép bản quyền",
 
 	[Key.authorName]: "Trọng Đông",
+	[Key.allRightsReserved]: "Mọi quyền đã được bảo lưu",
 };

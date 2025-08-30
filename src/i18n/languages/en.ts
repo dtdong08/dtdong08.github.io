@@ -37,4 +37,5 @@ export const en: Translation = {
 	[Key.license]: "License",
 
 	[Key.authorName]: "Trong Dong",
+	[Key.allRightsReserved]: "All rights reserved",
 };

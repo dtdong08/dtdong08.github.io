@@ -34,6 +34,7 @@ enum I18nKey {
 	license = "license",
 
 	authorName = "authorName",
+	allRightsReserved = "allRightsReserved",
 }
 
 export default I18nKey;
