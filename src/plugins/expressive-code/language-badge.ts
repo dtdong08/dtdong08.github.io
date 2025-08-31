@@ -7,7 +7,7 @@ export function pluginLanguageBadge() {
 	return definePlugin({
 		name: "Language Badge",
 		// @ts-expect-error
-		baseStyles: ({}) => `
+		baseStyles: ({ _cssVar }) => `
       [data-language]::before {
         position: absolute;
         z-index: 2;
