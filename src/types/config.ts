@@ -28,6 +28,8 @@ export type SiteConfig = {
 	};
 
 	favicon: Favicon[];
+
+	backToTopEnabled: boolean;
 };
 
 export type Favicon = {
