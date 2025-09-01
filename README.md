@@ -1,0 +1,1 @@
+I bid you welcome to [my sublimely appropriated and magnificently curated weblog sanctuary](https://dtdong08.github.io/), whose architectural essence I unabashedly expropriated from [this masterfully conceived digital template](https://github.com/saicaca/fuwari/).
