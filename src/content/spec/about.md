@@ -1,9 +1,15 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+###Xin chào
 
-::github{repo="saicaca/fuwari"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+Tôi là Đặng Trọng Đông, một học sinh sinh năm 2008 chuẩn bị bước vào những kỳ thi khó khăn nhất tôi từng đối mặt.
+Trong trường hợp bạn muốn liên hệ với tôi, thì có thể liên hệ qua:
+- Facebook: [dtdong08](https://www.facebook.com/dtdong08/)
+- Messenger: [dtdong08](https://m.me/dtdong08/)
+- Instagram: [_dt.dong](https://www.instagram.com/_dt.dong/)
+- Threads: [_dt.dong](https://www.threads.com/_dt.dong/)
+- Gmail: [dangtrongdong08@gmail.com](mailto:dangtrongdong08@gmail.com)
+- GitHub: [dtdong08](https://github.com/dtdong08/)
+
+
+Nếu bạn quan tâm tới trang blog này, thì mã nguồn nó ở [đây](https://github.com/dtdong08/dtdong08.github.io)
+::github{repo="dtdong08/dtdong08.github.io"}
